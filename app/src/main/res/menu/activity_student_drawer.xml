@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stu_int"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Internal Marks" />
+        <item
+            android:id="@+id/nav_stu_attendance"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_stu_edit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/nav_stu_delete"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Delete" />
+        <item
+            android:id="@+id/nav_stu_files"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Shared Files" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Mail" />
+
+        </menu>
+    </item>
+
+</menu>

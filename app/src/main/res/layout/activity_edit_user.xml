@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".edit_user">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name:"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/edit_etFname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter First Name"
+                android:inputType="textCapWords"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Middle Name:"
+                android:layout_marginBottom="5dp"/>
+
+
+            <EditText
+                android:id="@+id/edit_etMname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Middle Name(optional)"
+                android:inputType="textCapWords"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name:"
+                android:layout_marginBottom="5dp"/>
+
+
+            <EditText
+                android:id="@+id/edit_etLname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Last Name"
+                android:inputType="textCapWords"
+                android:layout_marginBottom="16dp"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter University Roll No:"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/edit_etRno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="12"
+                android:inputType="number"
+                android:hint="Enter Roll Number"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth:"
+                android:layout_marginBottom="5dp"/>
+
+            <DatePicker
+                android:id="@+id/edit_date_picker"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:startYear="1940"
+                android:endYear="2016"
+                android:layout_marginBottom="16dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/edit_etMobNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:inputType="phone"
+                android:hint="Enter 10 digit number "
+                android:layout_marginBottom="16dp"/>
+            <Button
+                android:id="@+id/edit_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Update"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

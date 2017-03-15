@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_alumini"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Alumini" />
+        <item
+            android:id="@+id/nav_adminisrattion"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Administration" />
+
+        <item
+            android:id="@+id/nav_departments"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Departments" />
+
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Courses" />
+
+        <item
+            android:id="@+id/nav_admissions"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Admissions" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Photo Gallery" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Location" />
+    </group>
+
+    <item android:title="Students And Lecturers">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Register" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Login" />
+        </menu>
+    </item>
+
+</menu>
